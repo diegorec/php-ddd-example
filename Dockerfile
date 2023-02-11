@@ -1,4 +1,4 @@
-FROM php:8.0-fpm-alpine
+FROM php:8.2.1-fpm-alpine
 WORKDIR /app
 
 RUN wget https://github.com/FriendsOfPHP/pickle/releases/download/v0.7.2/pickle.phar \
